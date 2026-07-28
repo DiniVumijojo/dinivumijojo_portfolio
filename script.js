@@ -16,9 +16,10 @@ const projects = [
     tags: ["AI", "Log Analysis", "Anomaly Detection", "Security"],
     github: "#",
     doc: "documents/ai-security-log-analyzer.pdf"
+    
   },
   {
-    status: "deployed",
+    status: "deployee",
     statusLabel: "complete",
     title: "AI Student Application Assistant",
     summary: "An AI-powered assistant that helps prospective students navigate the application process.",
