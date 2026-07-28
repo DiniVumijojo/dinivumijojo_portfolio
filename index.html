@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dini Vumijojo — IT Student | Security & AI/Automation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== BACKGROUND GRID DECORATION ===== -->
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<!-- ===== NAV ===== -->
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">dini<span class="accent">_</span>vumijojo<span class="cursor-blink">_</span></a>
+    <nav class="nav-links">
+      <a href="#about">~/about</a>
+      <a href="#projects">~/projects</a>
+      <a href="#certifications">~/certifications</a>
+      <a href="#contact">~/contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="terminal-label">// system_boot.log</p>
+      <div class="terminal-box" id="bootTerminal">
+        <p class="boot-line" data-text="> initializing profile..."></p>
+        <p class="boot-line" data-text="> identity: Dini Vumijojo"></p>
+        <p class="boot-line" data-text="> role: IT Student — Security & AI/Automation"></p>
+        <p class="boot-line" data-text="> location: Gauteng, South Africa"></p>
+        <p class="boot-line boot-line--status" data-text="> status: ACTIVELY SEEKING OPPORTUNITIES_"></p>
+      </div>
+      <h1 class="hero-title">Securing systems.<br>Automating the boring parts.<br><span class="accent">Building the proof.</span></h1>
+      <p class="hero-sub">Final-year IT student working across cybersecurity and AI/automation — from cloud security monitoring and network hardening to applying AI tooling to real workflows.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn--primary">View project log</a>
+        <a href="#contact" class="btn btn--ghost">Open secure channel</a>
+      </div>
+    </div>
+
+    <div class="hero-photo-frame">
+      <div class="monitor">
+        <div class="monitor-bar">
+          <span class="status-dot status-dot--green"></span>
+          <span class="monitor-label">profile_feed.live</span>
+        </div>
+        <div class="monitor-screen">
+          <img src="images/dini.jpg" alt="Dini Vumijojo" id="profilePhoto">
+          <div class="scanline" aria-hidden="true"></div>
+        </div>
+      </div>
+      <p class="photo-note">↑ want to swap this photo later? just replace <code>images/dini.jpg</code></p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="section-inner">
+    <p class="section-eyebrow">01 // system_profile</p>
+    <h2 class="section-title">About me</h2>
+
+    <div class="about-grid">
+      <div class="about-copy">
+        <p>I'm a final-year IT student at Belgium Campus iTversity, specialising in Infrastructure and Security. I like taking systems apart to understand how they hold up under pressure — then documenting exactly what I found, clearly enough that someone else could pick it up and act on it.</p>
+        <p>Alongside cybersecurity, I'm also building toward AI and automation — applying AI tooling to real workflows rather than just the theory. My hands-on experience so far comes from lab environments and project work: cloud security monitoring builds, network hardening exercises, and a virtual cybersecurity internship with MWR CyberSec. I'm currently working toward Microsoft's SC-900 (Security, Compliance, and Identity Fundamentals) and hold an FNB Full Stack Developer certification.</p>
+        <p>I'm actively looking for opportunities across IT, cybersecurity, and AI/automation — infrastructure, security operations, AI-assisted development, or roles where I can keep building on this foundation.</p>
+      </div>
+
+      <div class="about-readout">
+        <div class="readout-row">
+          <span class="readout-key">institution</span>
+          <span class="readout-val">Belgium Campus iTversity</span>
+        </div>
+        <div class="readout-row">
+          <span class="readout-key">specialisation</span>
+          <span class="readout-val">Infrastructure &amp; Security · AI/Automation</span>
+        </div>
+        <div class="readout-row">
+          <span class="readout-key">academic_avg</span>
+          <span class="readout-val">72% weighted · 10 module distinctions</span>
+        </div>
+        <div class="readout-row">
+          <span class="readout-key">internship</span>
+          <span class="readout-val">MWR CyberSec (virtual)</span>
+        </div>
+        <div class="readout-row">
+          <span class="readout-key">location</span>
+          <span class="readout-val">Gauteng, South Africa</span>
+        </div>
+        <div class="readout-row">
+          <span class="readout-key">status</span>
+          <span class="readout-val"><span class="status-dot status-dot--green inline-dot"></span>open to work</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section class="section section--alt" id="projects">
+  <div class="section-inner">
+    <p class="section-eyebrow">02 // project_log</p>
+    <h2 class="section-title">Projects</h2>
+    <p class="section-lede">Click a case file to see the full write-up, the GitHub repo, and the report.</p>
+
+    <div class="project-grid" id="projectGrid">
+      <!-- Project card: populated from data in script.js -->
+    </div>
+  </div>
+</section>
+
+<!-- ===== CERTIFICATIONS ===== -->
+<section class="section" id="certifications">
+  <div class="section-inner">
+    <p class="section-eyebrow">03 // clearance</p>
+    <h2 class="section-title">Certifications &amp; continuous learning</h2>
+
+    <div class="cert-row">
+      <div class="cert-badge cert-badge--progress">
+        <div class="cert-badge-top">
+          <span class="status-dot status-dot--amber inline-dot"></span>
+          <span class="cert-state">in progress</span>
+        </div>
+        <h3>SC-900</h3>
+        <p>Microsoft Security, Compliance &amp; Identity Fundamentals</p>
+      </div>
+
+      <div class="cert-badge cert-badge--earned">
+        <div class="cert-badge-top">
+          <span class="status-dot status-dot--green inline-dot"></span>
+          <span class="cert-state">earned</span>
+        </div>
+        <h3>Full Stack Developer (FNB)</h3>
+        <p>FNB App Academy — full stack development programme</p>
+      </div>
+
+      <div class="cert-badge cert-badge--placeholder">
+        <div class="cert-badge-top">
+          <span class="status-dot status-dot--dim inline-dot"></span>
+          <span class="cert-state">planned</span>
+        </div>
+        <h3>Add your next cert</h3>
+        <p>Duplicate this card in index.html to list what's next on the roadmap.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section section--alt" id="contact">
+  <div class="section-inner">
+    <p class="section-eyebrow">04 // secure_channel</p>
+    <h2 class="section-title">Get in touch</h2>
+    <p class="section-lede">Open to internships, graduate roles, and opportunities across infrastructure, security, and AI/automation.</p>
+
+    <div class="contact-grid">
+      <a class="contact-card" href="mailto:your.email@example.com">
+        <span class="contact-label">email</span>
+        <span class="contact-value">your.email@example.com</span>
+      </a>
+      <a class="contact-card" href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener">
+        <span class="contact-label">linkedin</span>
+        <span class="contact-value">linkedin.com/in/your-profile</span>
+      </a>
+      <a class="contact-card" href="https://github.com/your-username" target="_blank" rel="noopener">
+        <span class="contact-label">github</span>
+        <span class="contact-value">github.com/your-username</span>
+      </a>
+      <div class="contact-card contact-card--static">
+        <span class="contact-label">location</span>
+        <span class="contact-value">Gauteng, South Africa</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>Built by Dini Vumijojo · last deployed <span id="deployYear"></span></p>
+</footer>
+
+<!-- ===== PROJECT MODAL ===== -->
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Close">✕</button>
+    <p class="modal-eyebrow" id="modalStatus">status</p>
+    <h3 class="modal-title" id="modalTitle">Project title</h3>
+    <p class="modal-desc" id="modalDesc">Description</p>
+    <div class="modal-tags" id="modalTags"></div>
+    <div class="modal-actions">
+      <a href="#" class="btn btn--primary" id="modalGithub" target="_blank" rel="noopener">View on GitHub</a>
+      <a href="#" class="btn btn--ghost" id="modalDoc" target="_blank" rel="noopener">View report (PDF)</a>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
